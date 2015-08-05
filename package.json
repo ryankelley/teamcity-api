@@ -1,0 +1,31 @@
+{
+  "name": "teamcity-api",
+  "version": "0.1.0",
+  "description": "TeamCity API for NodeJS",
+  "license": "MIT",
+  "repository": "ryankelley/teamcity-api",
+  "maintainers": [
+    "Ryan Kelley <rpkelley@gmail.com>"
+  ],
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register",
+    "prepublish": "gulp build"
+  },
+  "main": "lib/teamcity",
+  "keywords": [
+    "teamcity",
+    "api"
+  ],
+  "dependencies": {
+    "request": "^2.34.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.6",
+    "gulp-coffee": "^2.1.1",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-mocha": "^0.5.1",
+    "rimraf": "^2.2.8"
+  }
+}
