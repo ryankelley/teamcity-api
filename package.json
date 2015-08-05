@@ -1,6 +1,6 @@
 {
   "name": "teamcity-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TeamCity API for NodeJS",
   "license": "MIT",
   "repository": "ryankelley/teamcity-api",

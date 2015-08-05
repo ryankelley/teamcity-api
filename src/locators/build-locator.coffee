@@ -10,6 +10,7 @@ class BuildLocator extends Locator
     'canceled'
     'running'
     'pinned'
+    'branch'
   ]
 
 module.exports = BuildLocator
